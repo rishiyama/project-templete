@@ -1,0 +1,13 @@
+path:
+  save_dir: 'output'
+  dataset: './data/my_dataset'
+
+seed: 42
+train_batch_size: 64
+val_batch_size: 16 
+train_val_test_ration: [ 0.8, 0.1, 0.1]
+num_epochs: 500
+learning_rate: 1e-3
+weight_decay: 1e-4
+
+num_workers: 8
